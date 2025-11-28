@@ -364,6 +364,14 @@ applications:
 services:
     db:
         type: mysql:11.8
+    db2:
+      type: mysql:11.8
+    redis:
+      type: redis-persistent:8.0
+    mercure:
+      type: mercure:0
+    gotenberg:
+      type: gotenberg:8
 routes:
     "https://{default}/":
         type: upstream
