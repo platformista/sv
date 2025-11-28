@@ -109,8 +109,6 @@ applications:
                 bin/console lexik:jwt:generate-keypair --skip-if-exists
                 bin/console assets:install --symlink --relative public
                 bin/console cache:clear
-        source:
-            root: /
 services:
     db:
         type: mysql:11.8
