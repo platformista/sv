@@ -134,7 +134,7 @@ applications:
       relationships:
         syliusapi:
           service: sylius
-          endpoint: api
+          endpoint: /
       # The web key configures the web server running in front of your app.
       # More information: https://docs.platform.sh/create-apps/app-reference.html#web
       web:
@@ -201,7 +201,7 @@ applications:
       relationships:
         syliusapi:
           service: sylius
-          endpoint: api
+          endpoint: /
       # The web key configures the web server running in front of your app.
       # More information: https://docs.platform.sh/create-apps/app-reference.html#web
       web:
@@ -268,7 +268,7 @@ applications:
       relationships:
         syliusapi:
           service: sylius
-          endpoint: api
+          endpoint: /
       # The web key configures the web server running in front of your app.
       # More information: https://docs.platform.sh/create-apps/app-reference.html#web
       web:
@@ -335,7 +335,7 @@ applications:
       relationships:
         syliusapi:
           service: sylius
-          endpoint: api
+          endpoint: /
       # The web key configures the web server running in front of your app.
       # More information: https://docs.platform.sh/create-apps/app-reference.html#web
       web:
