@@ -4,7 +4,7 @@ applications:
         source:
           root: "sylius"
         relationships:
-            db:
+            database: "db:mysql"
             mercure:
             redis:
         workers:
